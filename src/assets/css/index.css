@@ -1,24 +1,11 @@
 @import "tailwindcss";
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+@theme {
+  --primary: #1F396F;
+  --secondary: #87A3E0;
+  --accent: #658DE5;
+  --text: #00000;
 }
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-section {
-  padding: 60px 20px;
-}
-
-#hero_image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.social{
-    width: auto;
-    height: 70%;
-    color:#646973
+  font-family: Poppins, inter,Arial , sans-serif;
 }

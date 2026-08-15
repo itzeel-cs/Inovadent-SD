@@ -12,19 +12,18 @@ import Tabs from '@mui/material/Tabs'
 import Tab from '@mui/material/Tab'
 import Paper from '@mui/material/Paper'
 import Stack from '@mui/material/Stack'
-import { styled } from '@mui/material/styles'
+//import { styled } from '@mui/material/styles'
 //Presentation
-
+import Navbar from './Components/Navbar'
 
 //Font awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-free/css/all.min.css'
 
 function App() {
-  
-
   return (
     <>
+      <Navbar /> 
       
     </>
   )
