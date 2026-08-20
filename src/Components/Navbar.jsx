@@ -10,11 +10,11 @@ function Navbar() {
 
 
 
-<nav className="w-full bg-white/50 ">
+    <nav className="absolute top-0 left-0 z-10 w-full bg-gradient-to-b from-white to-transparent">
       <div className="max-w-7xl mx-auto px-6 py-4">
 
         {/* Barra principal */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between ">
 
           {/* Logo */}
 
@@ -50,8 +50,8 @@ function Navbar() {
 
             <a
               href="#contacto"
-              className="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition">
-              Agendar cita
+              className=" text-gray-700 px-5 py-2.5  hover:text-blue-600 transition">
+              Contacto
             </a>
           </div>
 
